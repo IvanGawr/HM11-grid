@@ -1,5 +1,58 @@
-.header-logo__bck{
-    width: 300px;
-    height: 300px;
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    box-shadow: 0px 5px 6px 0px #DCDCDC;
+
+}
+.header-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-logo-bck{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     background: linear-gradient(to bottom right,#D140F8, #788CE9, #37C2DE, #1ECCAE);
+    border-radius: 12px;
+}
+
+.header-logo-bck__txt{
+    color: white;
+    font-size: 1.3rem;
+    opacity: 90%;
+}
+
+.header-logo__text{
+    font-size:1.5rem;
+    font-weight: bold;
+    padding-left: 9px;
+}
+
+.header-nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-nav-list__item{
+    font-size: 1.5rem;
+    padding-left: 32px;
+    color: #666666;
+}
+
+.header-nav-list__item__button{
+    width: 172px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 2px;
+    border-radius: 4px;
 }
