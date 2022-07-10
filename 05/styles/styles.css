@@ -56,3 +56,96 @@
     letter-spacing: 2px;
     border-radius: 4px;
 }
+
+
+
+
+.section-white{
+    height: 690px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.section-white-left{
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.section-white-left-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-white-left-logo-bck{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom right,#D140F8, #788CE9, #37C2DE, #1ECCAE);
+    border-radius: 12px;
+}
+
+.section-white-left-logo-bck__txt{
+    color: white;
+    font-size: 3rem;
+    opacity: 90%;
+}
+
+.section-white-left-logo__txt{
+    font-size:3.5rem;
+    font-weight: bold;
+    padding-left: 14px;
+}
+
+.section-white-left__topic{
+    height: 120px;
+    width: 400px;
+    font-size: 54px;
+    line-height: 59.5px;
+    margin-top: 10px;
+}
+
+.section-white-left__article{
+    width: 394px;
+    height: 72px;
+    font-size: 1.6rem;
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.section-white-left-buttons{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.setcion-white-left-buttons__item{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+}
+
+.section-white-right{
+    position: relative;
+    top: 350px;
+}
+.section-white-right__top{
+    position: relative;
+    top: -528px;
+    left: 28px;
+
+}
+
