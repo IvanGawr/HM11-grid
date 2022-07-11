@@ -869,8 +869,7 @@ body{
     flex-direction: column;
     align-items: center;
     top: -600px;
-    background-color: #D140F8;
-    
+        
 }
 
 .section-price-pretopic{
@@ -878,12 +877,14 @@ body{
     font-size: 1.4rem;
     letter-spacing: 2px;
     padding-top: 100px;
+    text-align: center;
 }
 
 .section-price-topic{
     color: black;
     font-size: 3.2rem;
     padding-top: 5px;
+    
     
 }
 
@@ -893,6 +894,7 @@ body{
     width: 570px;
     padding-top: 15px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .section-price-blocks{
@@ -981,6 +983,12 @@ body{
 .section-test{
     background-color: #F2F2F2;
     height: 560px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -600px;
+    
 }
 
 .section-test-pretopic{
@@ -1003,6 +1011,7 @@ body{
     width: 570px;
     padding-top: 15px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .section-test-blocks{
@@ -1030,4 +1039,136 @@ body{
 .section-test-block__bottom{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
 }
+
+.section-download{
+    background-color:white;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -600px;
+}
+
+.section-download-pretopic{
+    color: black;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    padding-top: 100px;
+}
+
+.section-download-topic{
+    color: black;
+    font-size: 3.2rem;
+    padding-top: 5px;
+    
+}
+
+.section-download-article{
+    color: #666666;
+    font-size: 1.8rem;
+    width: 570px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.section-faq{
+    height: 650px;
+    background-color: #E5E5E5;
+    position: relative;
+    top: -600px;
+    color: #222222;
+}
+
+.section-faq__topic{
+    font-size: 3.2rem;
+    padding-left: 135px;
+    padding-top: 105px;
+}
+
+.section-faq__article{
+    font-size: 1.5rem;
+    padding-left: 135px;
+    padding-top: 15px;
+}
+
+.section-faq-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 135px;
+    padding-top: 50px;
+}
+
+.section-faq-blocks-item{
+    width: 580px;
+}
+
+.section-faq-blocks-item__topic{
+    font-size: 1.8rem;
+    padding-bottom: 10px;
+}
+
+.section-faq-blocks-item__article{
+    font-size: 1.6rem;
+}
+
+.footer{
+    height: 430px;
+    position: relative;
+    top: -600px;
+    padding-top: 100px;
+    background-color: #DCDCDC;
+
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-logo-bck{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background: linear-gradient(to bottom right,#D140F8, #788CE9, #37C2DE, #1ECCAE);
+    border-radius: 12px;
+}
+
+.footer-logo-bck__txt{
+    color: white;
+    font-size: 3.4rem;
+    opacity: 90%;
+}
+
+.footer-logo__txt{
+    padding-top: 15px;
+    font-size:3.8rem;
+    font-weight: bold;
+}
+
+.footer-social{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-end{
+    padding-top: 25px;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+
+/* вот по итогу у меня остался кусок внизу, я вроде как знаю как исправить это, попробую исправить позже. Если я правильно понимаю, мне нужно было с картинками по-другому играться,
+эти лишние 600 пикселей пошли из-за одной из картинок, надо попробовать ее сделать по-другому */
