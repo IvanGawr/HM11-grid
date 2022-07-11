@@ -869,6 +869,7 @@ body{
     flex-direction: column;
     align-items: center;
     top: -600px;
+    background-color: #D140F8;
     
 }
 
@@ -972,4 +973,61 @@ body{
     letter-spacing: 2px;
     border-radius: 4px;
     border-width: 0px;
+}
+
+
+
+
+.section-test{
+    background-color: #F2F2F2;
+    height: 560px;
+}
+
+.section-test-pretopic{
+    color: black;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    padding-top: 100px;
+}
+
+.section-test-topic{
+    color: black;
+    font-size: 3.2rem;
+    padding-top: 5px;
+    
+}
+
+.section-test-article{
+    color: #666666;
+    font-size: 1.8rem;
+    width: 570px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.section-test-blocks{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.section-test-blocks__item{
+    width: 380px;
+    height: 230px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.section-test-block__article{
+    font-size: 1.6rem;
+    text-align: left;
+    width: 310px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.section-test-block__bottom{
+    display: flex;
+    flex-direction: row;
 }
