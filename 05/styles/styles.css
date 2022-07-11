@@ -195,6 +195,7 @@
 }
 
 /* не совсем понимаю как работает расположение по центру, нашел такой вариант, сделал так. Нужна подсказка мастера */
+/* да и в целом по расположению содержимого внутри блока у меня какие-то беды */
 .section-black-first__botpic{
     position: relative;
     z-index: 1;
@@ -215,34 +216,135 @@
     border-radius: 0 0 20px 20px;
 }
 
-.section-black-first-bg{
+.section-black-first-midpic{
+    position: relative;
     background-color: #0278ED;
     height: 6.4rem;
     width: 6.4rem;
     padding-left: 20px;
     padding-top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25%;    
+    
 }
 
-.section-black-first-bg__midpic{
+.section-black-first-bg-midpic__item{
     position: relative;
     height: 27px;
     width: 24px;
+
 }
 
 .section-black-first__topic{
+    position: relative;
     color: #0278ED;
     font-size: 2.4rem;
     font-style:inherit;
     font-weight: inherit;
     text-align: center;
+    /* margin-top: 20px; */
+    top: -20%;
 }
 
 .section-black-first__article{
+    position: relative;
     padding-left: 50px;
     padding-right: 50px;
     color: #222222;
     font-size: 1.5rem;
     text-align: center;
+    top: -15%;
 }
+
+
+
+
+.section-black-second{
+    height: 490px;
+    width: 390px;
+    padding-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.section-black-second__botpic{
+    position: relative;
+    z-index: 2;
+    right: -50%;
+    transform: translateX(-50%);
+}
+.section-black-second__toppic{
+    position: relative;
+    top: -441px;
+    z-index: 1;
+    right: -50%;
+    transform: translateX(-50%)
+}
+
+.section-black-second__text{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    position: relative;
+    z-index: 5;
+    background-color: #F2F2F2;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    top: -616px;
+    
+}
+
+.section-black-second-midpic{
+    position: relative;
+    background-color: red;
+    height: 6.4rem;
+    width: 6.4rem;
+    padding-left: 20px;
+    padding-top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15%;    
+}
+
+.section-black-second__topic{
+    position: relative;
+    color: red;
+    font-size: 2.4rem;
+    font-style:inherit;
+    font-weight: inherit;
+    text-align: center;
+    /* margin-top: 20px; */
+    top: -10%;
+}
+
+.section-black-second__article{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #222222;
+    font-size: 1.5rem;
+    text-align: center;
+    top: -5%;
+}
+
+
+
+.section-black-third{
+    height: 490px;
+    width: 390px;
+    padding-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.section-black-third__botpic{
+    position: relative;
+    z-index: 2;
+    right: -50%;
+    transform: translateX(-50%);
+}
+
+
 
 
