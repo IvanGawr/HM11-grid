@@ -345,6 +345,116 @@
     transform: translateX(-50%);
 }
 
+.section-black-third__text{
+    position: relative;
+    z-index: 5;
+    background-color: #F2F2F2;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    top: -206px;
+    
+}
+
+.section-black-third-midpic{
+    position: relative;
+    background-color: #FF9209;
+    height: 6.4rem;
+    width: 6.4rem;
+    padding-left: 20px;
+    padding-top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15%;    
+}
+
+.section-black-third__topic{
+    position: relative;
+    color: #FF9209;
+    font-size: 2.4rem;
+    font-style:inherit;
+    font-weight: inherit;
+    text-align: center;
+    /* margin-top: 20px; */
+    top: -10%;
+}
+
+.section-black-third__article{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #222222;
+    font-size: 1.5rem;
+    text-align: center;
+    top: -5%;
+}
+
+
+
+
+.section-black-forth{
+    height: 490px;
+    width: 390px;
+    padding-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.section-black-forth__botpic{
+    position: relative;
+    z-index: 2;
+    right: -50%;
+    transform: translateX(-50%);
+}
+.section-black-forth__toppic{
+    position: relative;
+    top: -441px;
+    z-index: 1;
+    right: -50%;
+    transform: translateX(-50%)
+}
+
+.section-black-forth__text{
+    position: relative;
+    z-index: 5;
+    background-color: #F2F2F2;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    top: -630px;
+    
+}
+
+.section-black-forth-midpic{
+    position: relative;
+    background-color: #E738CE;
+    height: 6.4rem;
+    width: 6.4rem;
+    padding-left: 20px;
+    padding-top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15%;    
+}
+
+.section-black-forth__topic{
+    position: relative;
+    color: #E738CE;
+    font-size: 2.4rem;
+    font-style:inherit;
+    font-weight: inherit;
+    text-align: center;
+    /* margin-top: 20px; */
+    top: -10%;
+}
+
+.section-black-forth__article{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #222222;
+    font-size: 1.5rem;
+    text-align: center;
+    top: -5%;
+}
 
 
 
