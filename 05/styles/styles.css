@@ -140,12 +140,109 @@
 
 .section-white-right{
     position: relative;
-    top: 350px;
+    top: 425px;
 }
+
+
 .section-white-right__top{
     position: relative;
     top: -528px;
     left: 28px;
+    z-index: 2;
+}
+.section-white-right__bot{
+    position: relative;
+    z-index: 3;
+}
+
+.section-black{
+    background-color:#222222;
+    position: relative;
+    padding-top: 75px;
+    z-index: 4;
+    top: -20px;
 
 }
+
+.section-black-header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.section-black-header__topic{
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+
+.section-black-header__title{
+    width: 495px;
+    height: 75px;
+    color: #ffffff;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.section-black-first{
+    height: 490px;
+    width: 390px;
+    padding-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+/* не совсем понимаю как работает расположение по центру, нашел такой вариант, сделал так. Нужна подсказка мастера */
+.section-black-first__botpic{
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    right: -50%;
+    transform: translateX(-50%);
+}
+
+.section-black-first__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 45%;
+    z-index: 9999;
+    background-color: #F2F2F2;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+}
+
+.section-black-first-bg{
+    background-color: #0278ED;
+    height: 6.4rem;
+    width: 6.4rem;
+    padding-left: 20px;
+    padding-top: 18px;
+}
+
+.section-black-first-bg__midpic{
+    position: relative;
+    height: 27px;
+    width: 24px;
+}
+
+.section-black-first__topic{
+    color: #0278ED;
+    font-size: 2.4rem;
+    font-style:inherit;
+    font-weight: inherit;
+    text-align: center;
+}
+
+.section-black-first__article{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #222222;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 
