@@ -17,6 +17,12 @@ body{
     align-items: center;
 }
 
+.header-logo:hover .header-logo__text{
+    background: linear-gradient(to bottom right,#D140F8, #788CE9, #37C2DE, #1ECCAE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .header-logo-bck{
     display: flex;
     justify-content: space-around;
@@ -25,9 +31,6 @@ body{
     height: 40px;
     background: linear-gradient(to bottom right,#D140F8, #788CE9, #37C2DE, #1ECCAE);
     border-radius: 12px;
-}
-
-.header-logo-bck__txt{
     color: white;
     font-size: 1.3rem;
     opacity: 90%;
@@ -45,9 +48,24 @@ body{
     align-items: center;
 }
 
+.header-nav-list__item:hover{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #666666
+
+}
+
 .header-nav-list__item{
     font-size: 1.5rem;
-    padding-left: 32px;
+    margin: 16px;
     color: #666666;
 }
 
@@ -60,8 +78,31 @@ body{
     line-height: 18px;
     letter-spacing: 2px;
     border-radius: 4px;
+    transition: 0.5s;
+    
 }
 
+.header-nav-list__item__button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.move-to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    padding-top: 12px;
+    background-color: rgb(116, 132, 163);
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    border-radius: 35%;
+    z-index: 9999;
+}
 
 
 
@@ -146,6 +187,11 @@ body{
 .section-white-right{
     position: relative;
     top: 425px;
+    transition: 1s;
+}
+
+.section-white-right:hover{
+    top: 405px;
 }
 
 
@@ -188,6 +234,17 @@ body{
     color: #ffffff;
     font-size: 3.2rem;
     text-align: center;
+}
+
+.ampersand{
+    display: inline-block;
+    transition: 1s;
+}
+
+.section-black-header__title:hover .ampersand{
+    transform-origin: 90%;
+    transform: rotateX(360deg);
+    color: red;
 }
 
 .section-black-total{
@@ -470,8 +527,12 @@ body{
     top: -5%;
 }
 
-
-
+.midpic{
+    transition: 0.6s;
+}
+.midpic:hover{
+    border-radius: 50%;
+}
 
 
 
@@ -1132,7 +1193,7 @@ body{
     justify-content: flex-start;
     align-items: center;
 }
-
+/* не понял как сделать бесконечное вращение */
 .footer-logo-bck{
     display: flex;
     justify-content: space-around;
@@ -1141,6 +1202,12 @@ body{
     height: 75px;
     background: linear-gradient(to bottom right,#D140F8, #788CE9, #37C2DE, #1ECCAE);
     border-radius: 12px;
+    transition: 1s;
+}
+
+.footer-logo:hover .footer-logo-bck{
+    transform: rotate(360deg);
+    animation-iteration-count: infinite;
 }
 
 .footer-logo-bck__txt{

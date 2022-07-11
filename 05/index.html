@@ -13,24 +13,22 @@
         <link rel="stylesheet" href="./styles/styles.css">
     </head>
     <body>
-        <header class="header">
+        <header id="top" class="header">
             <div class="header-logo">
-                <div class="header-logo-bck">
-                    <div class="header-logo-bck__txt">(H)</div>
-                </div>
+                <div class="header-logo-bck">(H)</div>                
                 <div class="header-logo__text">H(app)y</div>                
             </div>
-
             <nav class="header-nav">
                 <ul class="header-nav-list">
-                    <li class="header-nav-list__item"><a>Features</a></li>
-                    <li class="header-nav-list__item"><a>Pricing</a></li>
-                    <li class="header-nav-list__item"><a>Testimonials</a></li>
-                    <li class="header-nav-list__item"><a>Instructions</a></li>
+                    <li class="header-nav-list__item"><a href="#features">Features</a></li>
+                    <li class="header-nav-list__item"><a href="#pricing">Pricing</a></li>
+                    <li class="header-nav-list__item"><a href="#test">Testimonials</a></li>
+                    <li class="header-nav-list__item"><a href="#instr">Instructions</a></li>
                     <li class="header-nav-list__item"><button type="button" class="header-nav-list__item__button">GET TEMPLATE</button></li>
                 </ul>
             </nav>
         </header>
+        <a href="#top"><div class="move-to-top">TOP</div></a>
         <section class="section-white">
             <div class="section-white-left">
                 <div class="section-white-left-logo">
@@ -51,17 +49,17 @@
                 <div class="section-white-right__top"><img src="./Assets/section-white/art-img.jpg" alt="phone_img"></div>
             </div>
         </section>
-        <section class="section-black">
+        <section id="features" class="section-black">
             <div class="section-black-header">
                 <p class="section-black-header__topic">FEATURES</p>
-                <p class="section-black-header__title">The latest & greatest in phone photography.</p>
+                <p class="section-black-header__title">The latest <span class="ampersand">&</span> greatest in phone photography.</p>
             </div>
             <div class="section-black-total">
             <div class="section-black-first">
                 <img class="section-black-first__botpic" src="./Assets/section-black/phone-clear.png" alt="phone_back">
                 <!-- <img class="section-black-first__toppic" src="" alt=""> -->
                 <div class="section-black-first__text">
-                    <div class="section-black-first-midpic">   
+                    <div class="section-black-first-midpic midpic">   
                         <img class="section-black-first-midpic__item" src="./Assets/section-black/calendar-icon.png" alt="calendar">
                     </div> 
                     <h3 class="section-black-first__topic">Calendar view</h3>
@@ -74,7 +72,7 @@
                     <img class="section-black-second__toppic" src="./Assets/section-black/img-1.png" alt="phone-front">
                 </div>
                 <div class="section-black-second__text">
-                    <div class="section-black-second-midpic">
+                    <div class="section-black-second-midpic midpic">
                         <img class="section-black-second-midpic__item" src="./Assets/section-black/list-icon.png" alt="list-icon">
                     </div>
                     <h3 class="section-black-second__topic">Lists</h3>
@@ -87,7 +85,7 @@
                     <!-- <img class="section-black-third__toppic" src="" alt=""> -->
                 </div>
                 <div class="section-black-third__text">
-                    <div class="section-black-third-midpic">
+                    <div class="section-black-third-midpic midpic">
                         <img class="section-black-third-midpic__item" src="./Assets/section-black/Aa-icon.png" alt="Aa-icon">
                     </div>
                     <h3 class="section-black-third__topic">Varied type</h3>
@@ -100,7 +98,7 @@
                     <img class="section-black-forth__toppic" src="./Assets/section-black/img-2.png" alt="phone-front">
                 </div>
                 <div class="section-black-forth__text">
-                    <div class="section-black-forth-midpic">
+                    <div class="section-black-forth-midpic midpic">
                         <img class="section-black-forth-midpic__item" src="./Assets/section-black/Split-screen-Icon.png" alt="Split-screen-Icon">
                     </div>
                     <h3 class="section-black-forth__topic">Split-screen</h3>
@@ -113,7 +111,7 @@
                     <!-- <img class="section-black-fifth__toppic" src="" alt=""> -->
                 </div>
                 <div class="section-black-fifth__text">
-                    <div class="section-black-fifth-midpic">
+                    <div class="section-black-fifth-midpic midpic">
                         <img class="section-black-fifth-midpic__item" src="./Assets/section-black/upload-icon.png" alt="upload-icon">
                     </div>
                     <h3 class="section-black-fifth__topic">Uploads</h3>
@@ -126,7 +124,7 @@
                     <img class="section-black-sixth__toppic" src="./Assets/section-black/img-3.png" alt="phone-front">
                 </div>
                 <div class="section-black-sixth__text">
-                    <div class="section-black-sixth-midpic">
+                    <div class="section-black-sixth-midpic midpic">
                         <img class="section-black-sixth-midpic__item" src="./Assets/section-black/upload-icon.png" alt="upload-icon">
                     </div>
                     <h3 class="section-black-sixth__topic">Focus mode</h3>
@@ -192,7 +190,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-price">
+        <section id="pricing" class="section-price">
             <p class="section-price-pretopic">PRICING</p>
             <p class="section-price-topic">A plan for every need.</p>
             <p class="section-price-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque aliquam odio et faucibus.</p>
@@ -217,7 +215,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-test">
+        <section id="test" class="section-test">
             <p class="section-test-pretopic">TESTIMONIALS</p>
             <p class="section-test-topic">Don't take our word for it.</p>
             <p class="section-test-article">See what our customers are saying.</p>
@@ -260,7 +258,7 @@
             <p class="section-download-article">Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.</p>
             <img class="-section-download-img" src="./Assets/section-download/apple.png" alt="apple">
         </section>
-        <section class="section-faq">
+        <section id="instr" class="section-faq">
             <p class="section-faq__topic">FAQ</p>
             <p class="section-faq__article">Some questions & some answers</p>
             <div class="section-faq-blocks">
