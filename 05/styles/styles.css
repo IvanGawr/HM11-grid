@@ -1,3 +1,8 @@
+body{
+    max-width: 2500px;
+    margin: auto;
+}
+
 .header{
     display: flex;
     justify-content: space-around;
@@ -854,3 +859,117 @@
     width: 600px;
 }
 
+
+
+
+.section-price{
+    position: relative;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: -600px;
+    
+}
+
+.section-price-pretopic{
+    color: black;
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    padding-top: 100px;
+}
+
+.section-price-topic{
+    color: black;
+    font-size: 3.2rem;
+    padding-top: 5px;
+    
+}
+
+.section-price-article{
+    color: #666666;
+    font-size: 1.8rem;
+    width: 570px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.section-price-blocks{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.section-price-blocks__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 340px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+.section-price-blocks__name{
+    font-size: 1.8rem;
+    padding-top: 50px;
+}
+
+.section-price-blocks__price{
+    font-size: 10.8rem;
+    line-height: 115px;
+    padding-top: 10px;
+}
+
+.section-price-blocks__period{
+    font-size: 1.4rem;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.blue{
+    color: #0278ED;
+}
+
+.red{
+    color:#FF5437;
+}
+
+.orange{
+    color: #FF9209;
+}
+
+.section-price-blocks__button__blue{
+    width: 130px;
+    height: 40px;
+    background-color: #0278ED;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.section-price-blocks__button__red{
+    width: 130px;
+    height: 40px;
+    background-color: #FF5437;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border-width: 0px;
+}
+
+.section-price-blocks__button__orange{
+    width: 130px;
+    height: 40px;
+    background-color: #FF9209;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 18px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    border-width: 0px;
+}
