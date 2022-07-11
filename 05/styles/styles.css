@@ -185,6 +185,15 @@
     text-align: center;
 }
 
+.section-black-total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
 .section-black-first{
     height: 490px;
     width: 390px;
@@ -458,3 +467,134 @@
 
 
 
+
+
+
+
+.section-black-fifth{
+    height: 490px;
+    width: 390px;
+    padding-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.section-black-fifth__botpic{
+    position: relative;
+    z-index: 2;
+    right: -50%;
+    transform: translateX(-50%);
+}
+
+.section-black-fifth__text{
+    position: relative;
+    z-index: 5;
+    background-color: #F2F2F2;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    top: -206px;
+    
+}
+
+.section-black-fifth-midpic{
+    position: relative;
+    background-color: #00C6DF;
+    height: 6.4rem;
+    width: 6.4rem;
+    padding-left: 20px;
+    padding-top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15%;    
+}
+
+.section-black-fifth__topic{
+    position: relative;
+    color: #00C6DF;
+    font-size: 2.4rem;
+    font-style:inherit;
+    font-weight: inherit;
+    text-align: center;
+    /* margin-top: 20px; */
+    top: -10%;
+}
+
+.section-black-fifth__article{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #222222;
+    font-size: 1.5rem;
+    text-align: center;
+    top: -5%;
+}
+
+
+
+
+
+
+.section-black-sixth{
+    height: 490px;
+    width: 390px;
+    padding-top: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.section-black-sixth__botpic{
+    position: relative;
+    z-index: 2;
+    right: -50%;
+    transform: translateX(-50%);
+}
+.section-black-sixth__toppic{
+    position: relative;
+    top: -441px;
+    z-index: 1;
+    right: -50%;
+    transform: translateX(-50%)
+}
+
+.section-black-sixth__text{
+    position: relative;
+    z-index: 5;
+    background-color: #F2F2F2;
+    height: 200px;
+    border-radius: 0 0 20px 20px;
+    top: -630px;
+    
+}
+
+.section-black-sixth-midpic{
+    position: relative;
+    background-color: #B25DF8;
+    height: 6.4rem;
+    width: 6.4rem;
+    padding-left: 20px;
+    padding-top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15%;    
+}
+
+.section-black-sixth__topic{
+    position: relative;
+    color: #B25DF8;
+    font-size: 2.4rem;
+    font-style:inherit;
+    font-weight: inherit;
+    text-align: center;
+    /* margin-top: 20px; */
+    top: -10%;
+}
+
+.section-black-sixth__article{
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #222222;
+    font-size: 1.5rem;
+    text-align: center;
+    top: -5%;
+}
