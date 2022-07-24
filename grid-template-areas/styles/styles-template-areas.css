@@ -1,0 +1,65 @@
+body{
+    font-size: 4rem;
+    color: white;
+}
+
+.item{
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+
+.container{
+    height: 100vh;
+    padding: 10px;
+    display: grid;
+    grid-template-areas:'first first first first'
+                        'first first first first'
+                        'first first first first'
+                        'first first first first'
+                        'second third fourth fivth'
+                        'second sixth fourth fivth'
+                        'second sixth seventh fivth'
+                        'second sixth eighth ninth';
+    gap: 10px;
+}
+
+.item-1{
+    grid-area: first;
+}
+
+.item-2{
+    grid-area: second;
+}
+
+.item-3{
+    grid-area: third;
+}
+
+.item-4{
+    grid-area: fourth;
+}
+
+.item-5{
+    grid-area: fivth;
+}
+
+.item-6{
+    grid-area: sixth;
+}
+
+.item-7{
+    grid-area: seventh;
+}
+
+.item-8{
+    grid-area: eighth;
+}
+
+.item-9{
+    grid-area: ninth;
+}
+
+
+
+
